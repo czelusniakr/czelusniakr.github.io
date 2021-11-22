@@ -5,21 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Web</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f2e8cf;
+            color: #6a994e;
+        }
+        h1, .sections, a:link, a:visited, a:hover {
+            color: #bc4749;
+        }
+        #habilidades, #sobre {
+            color: #386641;
+            line-height: 0.2;
+        }
+        a {
+            text-decoration: none;
+        }
+        img {
+            border-radius: 0% 33%;
+            border-style: dotted;
+            border-color: #6a994e;
+        }
+    </style>
+</head>
+<body>
     <h1><a href="#foto">Rafaela Czelusniak Ferraz Gonçalves</a></h1>
-    <img src="./eu.png" id="foto" width="100" alt="Rafaela com o cabelo vermelho na frente do rosto"><br>
-    <a href="#sobre"><em>Sobre mim</em></a><br>
-    <a href="#habilidades"><em>Minhas habilidades</em></a>
-    <p id="sobre">Tenho 19 anos, sou carioca e moro em Vitória da Conquista/BA. Atualmente estudo <strong>Desenvolvimento Web na <a href="https://www.betrybe.com/">Trybe</a></strong>!</p>
-    <h2 id="habilidades">Habilidades:</h2>
+    <img src="./foto.png" id="foto" width="150" alt="Rafaela com o cabelo vermelho na frente do rosto"><br><br>
+    <a href="#sobre" class="sections"><em>Sobre mim</em></a><br>
+    <a href="#habilidades" class="sections"><em>Minhas habilidades</em></a><br><br>
+    <h2 id="sobre"><em>Sobre:</em></h2>
+    <p>Tenho 19 anos, sou carioca e moro em Vitória da Conquista/BA. Atualmente estudo <strong>Desenvolvimento Web na <a href="https://www.betrybe.com/">Trybe</a></strong>!</p><br>
+    <h2 id="habilidades"><em>Habilidades:</em></h2>
     <ul>
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>
-    </ul>
+    </ul><br><br><br>
     <hr>
-        <a href="https://www.linkedin.com/in/rafaelaczelusniak/">Linkedin</a>
-</head>
-<body>
-    
+    <a href="https://www.linkedin.com/in/rafaelaczelusniak/">Linkedin</a>
 </body>
 </html>
