@@ -25,8 +25,34 @@ img {
     border-radius: 0% 33%;
     border-style: dotted;
     border-color: #6a994e;
+    float: left;
+    margin: 2.7px 5px;
+    background-color: bisque;
+    padding: 2px;
 }
 .items {
     /* Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos; */
     font-size: 20px;
+}
+.image-container {
+    height: 165px;
+}
+#paragrafo {
+    margin-top: 25px;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+#sobre {
+    margin-top: 0px;
+    margin-left: 200px;
+}
+#nome {
+    text-align: center;
+    padding: 5px;
+}
+.sections, .habilidades {
+    padding: 5px;
+}
+ul li:nth-child(odd) {
+    font-style: italic;
 }
